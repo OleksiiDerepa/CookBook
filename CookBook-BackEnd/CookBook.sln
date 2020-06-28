@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBook.API", "CookBook.API\CookBook.API.csproj", "{9AC4E00E-3E0A-4FAD-9961-F73E0AF6805A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBook.DAL", "CookBook.DAL\CookBook.DAL.csproj", "{8B4AD48D-87DA-455C-A2B8-C3A845B27B30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBook.Application", "CookBook.Application\CookBook.Application.csproj", "{532BBEED-CFEE-421A-B196-AB4E01FE658F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBook.Infrastructure", "CookBook.Infrastructure\CookBook.Infrastructure.csproj", "{3C283B5F-E0ED-4B84-9FA6-703A49C265B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AC4E00E-3E0A-4FAD-9961-F73E0AF6805A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC4E00E-3E0A-4FAD-9961-F73E0AF6805A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC4E00E-3E0A-4FAD-9961-F73E0AF6805A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC4E00E-3E0A-4FAD-9961-F73E0AF6805A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4AD48D-87DA-455C-A2B8-C3A845B27B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4AD48D-87DA-455C-A2B8-C3A845B27B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4AD48D-87DA-455C-A2B8-C3A845B27B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4AD48D-87DA-455C-A2B8-C3A845B27B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532BBEED-CFEE-421A-B196-AB4E01FE658F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532BBEED-CFEE-421A-B196-AB4E01FE658F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532BBEED-CFEE-421A-B196-AB4E01FE658F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532BBEED-CFEE-421A-B196-AB4E01FE658F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C283B5F-E0ED-4B84-9FA6-703A49C265B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C283B5F-E0ED-4B84-9FA6-703A49C265B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C283B5F-E0ED-4B84-9FA6-703A49C265B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C283B5F-E0ED-4B84-9FA6-703A49C265B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
