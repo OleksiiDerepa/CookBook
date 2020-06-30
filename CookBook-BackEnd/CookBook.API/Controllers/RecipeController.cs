@@ -54,7 +54,7 @@ namespace CookBook.API.Controllers
         }
 
         /// <summary>
-        /// Get recipe by id
+        /// Get parent hierarchy by recipe id
         /// </summary>
         /// <param name="recipeId"></param>
         /// <returns></returns>
@@ -63,7 +63,7 @@ namespace CookBook.API.Controllers
         {
             var result = await Mediator.Send(new GetParentHierarchyCommand {RecipeId = recipeId});
 
-            return Item(result);
+            return Ok(result);
         }
 
         /// <summary>

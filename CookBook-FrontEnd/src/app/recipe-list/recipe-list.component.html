@@ -1,0 +1,12 @@
+<h2>Recipe list</h2>
+
+<div *ngFor="let recipe of recipes">
+    <h3>
+        <app-recipe-short-item 
+            (onCreate)="onCreate($event)" 
+            (onUpdate)="onUpdate($event)" 
+            (onChosenItem)="onChosenItem($event)" 
+            [recipe]="recipe">
+        </app-recipe-short-item>
+    </h3>
+</div>

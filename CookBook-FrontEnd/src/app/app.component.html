@@ -1,0 +1,25 @@
+<button (click)="openModal()">Create main recipe</button>
+<header>
+<app-recipe-full-item [chosenItemId]="chosenItemId"></app-recipe-full-item>
+</header>
+  
+<section>
+  <nav>
+    <app-parent-hierarchy-list
+	(onChosenItemE)="onChosenItem($event)"
+	[chosenItemId]="chosenItemId"
+	></app-parent-hierarchy-list>
+  </nav>
+  
+  <article>
+      <app-recipe-list 
+      (onChosenItemE)="onChosenItem($event)"
+      [chosenItemId]="chosenItemId"></app-recipe-list>
+  </article>
+</section>
+ 
+  
+
+
+
+<router-outlet></router-outlet>

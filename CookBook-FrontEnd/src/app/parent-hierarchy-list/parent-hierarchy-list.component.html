@@ -1,0 +1,5 @@
+<p>parent hierarchy list!</p>
+
+<div *ngFor="let recipe of recipes">
+        <div (click)="chosenItem(recipe.id)" style="cursor: pointer;">{{recipe.title}}</div>
+</div>

@@ -1,0 +1,8 @@
+<div>
+  <div (click)="chosenItem(recipe.id)" style="cursor: cell;">
+    <div> {{ recipe.id }}</div>
+    <div> {{ recipe.title }}</div>
+    <div> {{ recipe.createdAt }}</div> 
+  </div>
+  <button (click)="create()">Create child</button>
+</div>
